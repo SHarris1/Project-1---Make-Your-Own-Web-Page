@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Udacity_Notes_3.12.15</title>
+
+</head>
+
+<body>
+
+  <!--
+Udacity:Introduction to Programming Nanodegree
+Stage_0
+2015_MAR_12
+#Q:is there indentation in HTML...maybe easier to read if Y. ...we'll see.
+#C:This took a while, but I learned alot...likely easier way to code framwork or save it and use template later for other pages.
+-->
+
+<DOCTYPE html>
+<html>
+
+<!-- The <head> element contains information that won't be displayed on the page.  -->
+<!-- #Q:What's the head for, where does it display?-->
+<head>
+  <title>Scott's Notes</title>
+</head>
+
+<!-- The <h1> tag stands for "heading 1". Heading tags go all the way up to <h6>. Lower numbered headings =  more important. -->
+<h1>Important Concepts<br>Last Update: 3/12/2015</h1>
+
+<b>How the Web Works</b>
+  <p>
+  The web is a collection of html pages <em>ie links</em>. A web page is a text doc written in a language called <em>HTML</em>. 
+  Web browsers read these documents, and then interpret and display them.
+  Here is a visual <b>{me -> computer + browser -> the internet -> /http/ ->Servers (then back to me)}.</b><br>
+  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This Video</a> does a good job of explaining that flow of information.
+  </p>
+
+<b>HTML</b>
+  <p>
+  HTML = <em>hyper text markup language.</em> HTML documents contain <b>text content = what I see</b> and <b>markup = how it looks.</b>
+  </p>
+
+<b>Tags and Elements</b>
+
+  <p>
+  <!--Display HTML Tags as text: http://stackoverflow.com/questions/8571257/how-to-display-html-tags-as-text
+  This way is a little tedious, but effective in flow of text-->
+
+  <b>Tag:</b> An HTML tag is always contained within angled brackets.<br>
+  Most tags have an opening tag (&lt;p&gt; for example) and a closing tag, (&lt;/p&gt;).<br>
+  Some tags (called "void" tags) do not require a closing tag (like the &lt;br&gt; tag).<br>
+  Element: An HTML element refers to everything within a set of opening and closing tags.<br><br>
+
+<b>Example of a few Tags:</b><br>
+  <!--Another way to show HTML tags as text, found this solution, kinda cool: Source of Textarea tag: http://stackoverflow.com/questions/2820453/display-html-code-in-html-->
+
+  <textarea disabled="true" style="border: yes;background-color:lightgray;">
+      <name>Tag</Name> 
+      <b>Bold</b>
+      <em>Italics</em>
+      <em>Italics then<b>nested bold statement</b></em>
+  </textarea>
+  </p><br>
+
+  <p>
+<b>HTML Attributes:</b><br>
+  <b>Attribute:</b> This is a property of an HTML element. Used to refer to other docs incl. images and videos (or web links, not videos directly).<br> 
+  For example, to set the href attribute of an anchor tag to the Udacity URL, you would write &lt;a href="www.udacity.com"&gt; That href would be shown as <a href="www.udacity.com">Udacity Website</a><br><br>
+<b>Example of a few Attributes:</b>
+<br>
+  <textarea disabled="true" style="border: yes;background-color:lightgray;">
+    <tag attr = "value">Contents</tag>
+    anchor - <a> - anchors for making links (link wont work in scratchpad.io, but will look neat)
+    See Example of this in action directly below:
+    And that attribute in action: I am going to open this link <a href ="www.reddit.com">Reddit</a>
+  </textarea>
+  <br>
+  And that attribute in action: I am going to open this link <a href ="www.reddit.com">Reddit</a><br>
+  <br>
+<b>Images:</b> <br>
+    <textarea disabled="true" style="border: yes;background-color:lightgray;">
+      <img> - images
+      <img src="url" alt="text">   }src = source, need alt text and no closing tag for img's
+  </textarea>
+
+ </p>
+
+<b>Inline vs Block Elements</b>
+  <p>
+  HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+  <br>
+  <b>Inline: </b>b, span, br, img, strong, a(?)
+  <br>
+  <b>Block: </b>div, p, form
+
+  </p>
+--------------------------------------------------------------------------------<br>
+<b>Other subjects outlined, but not covered -?</b>
+  <p>
+  HTTP = <b>Hypertext Transfer Protoco</b>.  <em>HTTP</em> is the foundation of data communication for the Web(www.)
+  <br>
+  <B>Web Applications</B> =  did we discuss this??
+  <br>
+  Note: CSS language is for styling the text
+  </p>
+
+<html>
+
+</body>
+
+</html>
